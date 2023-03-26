@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    
+    font-family: serif;
+}
+
+
+body{
+    background-image: linear-gradient(to right,#10403B,#0da193);
+}
+
+p{
+  text-align: justify;
+}
+
+main{
+    background-color: #a5a5a5;
+    width: 600px;
+    padding: 10px; /**Serve para criar uma borda dentro da caixa**/
+    margin: auto; /**centraliza a caixa**/
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    
+}
+
+h1{
+    color:#705040 ;
+    text-align: center;
+    text-shadow: 1px 1px 3px  #382821 ;
+}
+
+h2{
+    color:#0f3827 ;
+    text-shadow: 1px 1px 0px  black ;
+}

@@ -1,0 +1,51 @@
+body , ul , li , p , a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+.menu{
+    background-color: rgb(103, 106, 109);
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 15px;
+}
+
+a {
+    color: black;
+}
+
+.lg{
+   height: 50px;
+   width: 50px;   
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    padding: 15px;
+}
+
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+.sec > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}

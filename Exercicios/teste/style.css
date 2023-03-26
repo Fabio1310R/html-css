@@ -1,0 +1,89 @@
+body,ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(105, 105, 104);
+
+}
+
+.busca{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.Za{
+    font-size: 30px ;
+    align-items: center;
+
+}
+body{
+    background-color: darkcyan;
+}
+
+.lg {
+    height: 50px;
+    width: 50px;
+}
+
+.menu {
+    display: flex;
+    color: black;
+}
+.munu li{
+    margin-left: 10px;
+    
+}
+
+.menu li a {
+    padding: 10px;
+}
+
+img{
+    height: 250px;
+    max-width: 100%;
+    padding: 10px;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+
+    
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+a{
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}

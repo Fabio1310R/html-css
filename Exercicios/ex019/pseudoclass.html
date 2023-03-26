@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peseudo Classe</title>
+<style>
+     div{
+    background-color: aqua;
+    display: inline-block;
+    border: rgb(0, 0, 0) ;
+    width: 200px;
+    height: 200px;
+    }
+
+    /*Indentificador = id (um por aquivo)
+      classe = . (varios por aquivo)
+      pseudo classe = : 
+
+      pseudo classes dizem respeito ao estado do item
+      por ex a :hover quer dizer "quando o mouse passar por cima"
+    */
+
+    div:hover{
+        background-color: rgb(0 240 250);
+        color: red;
+    }
+    div::hover > p {
+        display: block;
+    }
+    div > p {
+        display: none;
+        font-size: 2em;
+    }
+</style>
+
+</head>
+<body>
+    <div>01</div>
+    <div>02</div>
+    <div>03</div>
+
+
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>passe o mouse aqui
+        <p>Texto escondido</p>
+    </div>
+</body>
+</html>
